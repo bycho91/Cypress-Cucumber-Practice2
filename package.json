@@ -1,0 +1,23 @@
+{
+  "name": "cypress-visual-regression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
