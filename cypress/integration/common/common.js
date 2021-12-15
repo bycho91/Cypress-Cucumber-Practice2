@@ -11,3 +11,11 @@ defineStep('I see {string} in the title', (title) => {
 defineStep('I see {string} in the url', (url) => {
   cy.url().should('include', url)
 })
+
+defineStep('I reload the browser', () => {
+  cy.reload()
+})
+
+defineStep('I see success comment', () => {
+  cy.contains('Thank you for your comments')
+})

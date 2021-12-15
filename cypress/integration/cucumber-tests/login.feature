@@ -9,6 +9,7 @@ Feature: Login to Application
       And I want to wait 2000 milliseconds
       And I see "LoginPage Practise" in the title
       And I see "loginpagePractise" in the url
+      And I reload the browser
       When user fills username with "rahulshettyacademy"
       And user fills password with "learning"
       And user clicks submit
